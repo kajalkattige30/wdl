@@ -9,7 +9,7 @@ if($_POST["login"]=="Login")
 	if(mysqli_num_rows($q)>0)
 	{
 		echo "LOGIN successfull, open next page.";
-		header("location:custprofile.html");
+		header("location:custprofile.php");
 	}
 	else
 	{

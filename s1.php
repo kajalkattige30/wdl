@@ -51,7 +51,7 @@ input[type=submit]:hover {
         <li><a href="#slider"> GALLERY </a></li>
         <li><a href="#contact"> CONTACT US </a></li>
         <li><a href="#about"> ABOUT </a></li>
-        <li><a href="login.html"> LOGIN </a></li>
+        <li><a href="rform.php"> LOGIN </a></li>
         
         <li><a href=""> FAQ </a></li>
     </ul>    

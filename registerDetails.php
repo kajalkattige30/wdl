@@ -11,8 +11,6 @@
 		$sex = $_POST["sex"];
 		$address = $_POST["add"];
 		$dbcon = mysqli_connect("localhost","root","","shopDB");
-		echo "$uname";
-		echo "$fname";
 		//name=localStorage.getItem("firstname");
 		$s = "insert into customer_info(uname,fname,lname,contact,email,sex,address) values('$uname','$fname','$lname',$mobile,'$email','$sex','$address') ";
 		$q = mysqli_query($dbcon,$s);

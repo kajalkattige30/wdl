@@ -1,0 +1,38 @@
+#content{
+	width: 30%;
+	height: 50%;
+	margin: 20px auto;
+	border: 1px solid #cbcbcb;
+}
+h2{
+	text-align: center;
+}
+form{
+	width: 50%;
+	margin: 20px auto;
+}
+form div{
+	margin-top: 5px;
+}
+label{
+	margin-top: 5px;
+}
+#img_div{
+	width: 30%;
+	height: 30%;
+	padding: 20px;
+	margin: 15px auto;
+	border: 1px solid #cbcbcb;
+}
+#img_div:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+img{
+	float: left;
+	margin: 5px;
+	height: 800px;
+	width: 300px;
+
+}
